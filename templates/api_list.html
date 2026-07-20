@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>API Management</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="/static/css/style.css" rel="stylesheet">
+</head>
+<body>
+  <div class="app-shell">
+    <aside class="sidebar">
+      <div class="brand">API Monitor</div>
+      <nav class="nav flex-column">
+        <a class="nav-link" href="/dashboard">Dashboard</a>
+        <a class="nav-link active" href="/api/manage">API Management</a>
+        <a class="nav-link" href="/monitor/logs">Monitoring Logs</a>
+        <a class="nav-link" href="/alerts/">Alerts</a>
+        <a class="nav-link" href="/reports/">Reports</a>
+      </nav>
+    </aside>
+
+    <main class="content">
+      <div class="d-flex align-items-center justify-content-between mb-3">
+        <h2 class="mb-0">API Management</h2>
+        <button class="btn btn-primary" id="btnAdd">Add API</button>
+      </div>
+
+      <div class="panel">
+        <div class="panel-title">APIs</div>
+        <div class="table-responsive">
+          <table class="table table-hover mb-0" id="apisTable">
+            <thead class="table-light">
+              <tr>
+                <th>ID</th>
+                <th>API Name</th>
+                <th>Endpoint URL</th>
+                <th>Status</th>
+                <th style="width: 220px;">Actions</th>
+              </tr>
+            </thead>
+            <tbody></tbody>
+          </table>
+        </div>
+      </div>
+    </main>
+  </div>
+
+  <!-- Modal -->
+  <div class="modal fade" id="apiModal" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="modalTitle">Add API</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <input type="hidden" id="apiId" />
+          <div class="mb-3">
+            <label class="form-label">API Name</label>
+            <input class="form-control" id="apiName" />
+          </div>
+          <div class="mb-3">
+            <label class="form-label">Endpoint URL</label>
+            <input class="form-control" id="endpointURL" />
+          </div>
+          <div class="mb-3">
+            <label class="form-label">Status</label>
+            <select class="form-select" id="status">
+              <option value="active" selected>active</option>
+              <option value="inactive">inactive</option>
+            </select>
+          </div>
+          <div class="alert alert-danger d-none" id="modalError"></div>
+        </div>
+        <div class="modal-footer">
+          <button class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+          <button class="btn btn-primary" id="saveApiBtn">Save</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="/static/js/dashboard.js"></script>
+</body>
+</html>

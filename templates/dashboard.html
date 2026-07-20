@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>API Monitoring Dashboard</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="/static/css/style.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
+</head>
+<body>
+  <div class="app-shell">
+    <aside class="sidebar">
+      <div class="brand">API Monitor</div>
+      <nav class="nav flex-column">
+        <a class="nav-link active" href="/dashboard">Dashboard</a>
+        <a class="nav-link" href="/api/manage">API Management</a>
+        <a class="nav-link" href="/monitor/logs">Monitoring Logs</a>
+        <a class="nav-link" href="/alerts/">Alerts</a>
+        <a class="nav-link" href="/reports/">Reports</a>
+      </nav>
+    </aside>
+
+    <main class="content">
+      <div class="d-flex align-items-center justify-content-between mb-3">
+        <h2 class="mb-0">Overview</h2>
+        <div class="text-muted" id="lastUpdated">Loading...</div>
+      </div>
+
+      <div class="kpi-grid mb-4">
+        <div class="kpi-card">
+          <div class="kpi-label">Total APIs</div>
+          <div class="kpi-value" id="kpiTotalApis">0</div>
+        </div>
+        <div class="kpi-card">
+          <div class="kpi-label">Healthy APIs</div>
+          <div class="kpi-value" id="kpiHealthyApis">0</div>
+        </div>
+        <div class="kpi-card kpi-failed">
+          <div class="kpi-label">Failed APIs</div>
+          <div class="kpi-value" id="kpiFailedApis">0</div>
+        </div>
+        <div class="kpi-card kpi-critical">
+          <div class="kpi-label">Critical Incidents</div>
+          <div class="kpi-value" id="kpiCriticalIncidents">0</div>
+        </div>
+        <div class="kpi-card">
+          <div class="kpi-label">Avg Response Time (ms)</div>
+          <div class="kpi-value" id="kpiAvgResponse">0</div>
+        </div>
+        <div class="kpi-card">
+          <div class="kpi-label">Avg Uptime (%)</div>
+          <div class="kpi-value" id="kpiUptime">0</div>
+        </div>
+      </div>
+
+      <div class="row g-4">
+        <div class="col-lg-4">
+          <div class="panel">
+            <div class="panel-title">Status Code Distribution</div>
+            <canvas id="statusDistChart" height="160"></canvas>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="panel">
+            <div class="panel-title">Response Time Trend</div>
+            <canvas id="responseTrendChart" height="160"></canvas>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="panel">
+            <div class="panel-title">Failure Distribution</div>
+            <canvas id="failureDistChart" height="160"></canvas>
+          </div>
+        </div>
+      </div>
+
+      <div class="row g-4 mt-1">
+        <div class="col-lg-6">
+          <div class="panel">
+            <div class="panel-title">Regional Performance</div>
+            <div class="table-responsive">
+              <table class="table table-hover mb-0" id="regionTable">
+                <thead class="table-light">
+                  <tr>
+                    <th>Region</th>
+                    <th>Total</th>
+                    <th>Avg Response</th>
+                    <th>Failures</th>
+                  </tr>
+                </thead>
+                <tbody></tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <div class="panel">
+            <div class="panel-title">Downtime Events (Last 7 Days)</div>
+            <canvas id="downtimeChart" height="200"></canvas>
+          </div>
+        </div>
+      </div>
+    </main>
+  </div>
+
+  <script src="/static/js/charts.js"></script>
+  <script src="/static/js/dashboard.js"></script>
+</body>
+</html>

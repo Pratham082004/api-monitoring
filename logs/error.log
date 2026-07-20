@@ -1,0 +1,285 @@
+2026-06-15 14:55:49,333 - ERROR - Monitoring scheduler job failed: evaluate_and_create_alerts() got an unexpected keyword argument 'downtime_minutes'
+Traceback (most recent call last):
+  File "d:\api monitor\scheduler\monitor_scheduler.py", line 26, in job_wrapper
+    res = run_monitoring_cycle()
+  File "d:\api monitor\services\monitoring_service.py", line 58, in run_monitoring_cycle
+    evaluate_and_create_alerts(
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        dataset_title="api_monitoring_rich_dataset",
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<9 lines>...
+        failure_label=row.get("failure_label"),
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+TypeError: evaluate_and_create_alerts() got an unexpected keyword argument 'downtime_minutes'
+2026-06-15 14:56:08,551 - ERROR - Monitoring scheduler job failed: evaluate_and_create_alerts() got an unexpected keyword argument 'downtime_minutes'
+Traceback (most recent call last):
+  File "d:\api monitor\scheduler\monitor_scheduler.py", line 26, in job_wrapper
+    res = run_monitoring_cycle()
+  File "d:\api monitor\services\monitoring_service.py", line 58, in run_monitoring_cycle
+    evaluate_and_create_alerts(
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        dataset_title="api_monitoring_rich_dataset",
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<9 lines>...
+        failure_label=row.get("failure_label"),
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+TypeError: evaluate_and_create_alerts() got an unexpected keyword argument 'downtime_minutes'
+2026-06-15 14:56:48,287 - ERROR - Monitoring scheduler job failed: evaluate_and_create_alerts() got an unexpected keyword argument 'downtime_minutes'
+Traceback (most recent call last):
+  File "d:\api monitor\scheduler\monitor_scheduler.py", line 26, in job_wrapper
+    res = run_monitoring_cycle()
+  File "d:\api monitor\services\monitoring_service.py", line 58, in run_monitoring_cycle
+    evaluate_and_create_alerts(
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        dataset_title="api_monitoring_rich_dataset",
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<9 lines>...
+        failure_label=row.get("failure_label"),
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+TypeError: evaluate_and_create_alerts() got an unexpected keyword argument 'downtime_minutes'
+2026-06-15 14:56:49,308 - ERROR - Monitoring scheduler job failed: evaluate_and_create_alerts() got an unexpected keyword argument 'downtime_minutes'
+Traceback (most recent call last):
+  File "d:\api monitor\scheduler\monitor_scheduler.py", line 26, in job_wrapper
+    res = run_monitoring_cycle()
+  File "d:\api monitor\services\monitoring_service.py", line 58, in run_monitoring_cycle
+    evaluate_and_create_alerts(
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        dataset_title="api_monitoring_rich_dataset",
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<9 lines>...
+        failure_label=row.get("failure_label"),
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+TypeError: evaluate_and_create_alerts() got an unexpected keyword argument 'downtime_minutes'
+2026-06-15 14:57:48,287 - ERROR - Monitoring scheduler job failed: evaluate_and_create_alerts() got an unexpected keyword argument 'downtime_minutes'
+Traceback (most recent call last):
+  File "d:\api monitor\scheduler\monitor_scheduler.py", line 26, in job_wrapper
+    res = run_monitoring_cycle()
+  File "d:\api monitor\services\monitoring_service.py", line 58, in run_monitoring_cycle
+    evaluate_and_create_alerts(
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        dataset_title="api_monitoring_rich_dataset",
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<9 lines>...
+        failure_label=row.get("failure_label"),
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+TypeError: evaluate_and_create_alerts() got an unexpected keyword argument 'downtime_minutes'
+2026-06-15 14:57:49,310 - ERROR - Monitoring scheduler job failed: evaluate_and_create_alerts() got an unexpected keyword argument 'downtime_minutes'
+Traceback (most recent call last):
+  File "d:\api monitor\scheduler\monitor_scheduler.py", line 26, in job_wrapper
+    res = run_monitoring_cycle()
+  File "d:\api monitor\services\monitoring_service.py", line 58, in run_monitoring_cycle
+    evaluate_and_create_alerts(
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        dataset_title="api_monitoring_rich_dataset",
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<9 lines>...
+        failure_label=row.get("failure_label"),
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+TypeError: evaluate_and_create_alerts() got an unexpected keyword argument 'downtime_minutes'
+2026-06-15 14:58:48,298 - ERROR - Monitoring scheduler job failed: evaluate_and_create_alerts() got an unexpected keyword argument 'downtime_minutes'
+Traceback (most recent call last):
+  File "d:\api monitor\scheduler\monitor_scheduler.py", line 26, in job_wrapper
+    res = run_monitoring_cycle()
+  File "d:\api monitor\services\monitoring_service.py", line 58, in run_monitoring_cycle
+    evaluate_and_create_alerts(
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        dataset_title="api_monitoring_rich_dataset",
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<9 lines>...
+        failure_label=row.get("failure_label"),
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+TypeError: evaluate_and_create_alerts() got an unexpected keyword argument 'downtime_minutes'
+2026-06-15 14:58:49,320 - ERROR - Monitoring scheduler job failed: evaluate_and_create_alerts() got an unexpected keyword argument 'downtime_minutes'
+Traceback (most recent call last):
+  File "d:\api monitor\scheduler\monitor_scheduler.py", line 26, in job_wrapper
+    res = run_monitoring_cycle()
+  File "d:\api monitor\services\monitoring_service.py", line 58, in run_monitoring_cycle
+    evaluate_and_create_alerts(
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        dataset_title="api_monitoring_rich_dataset",
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<9 lines>...
+        failure_label=row.get("failure_label"),
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+TypeError: evaluate_and_create_alerts() got an unexpected keyword argument 'downtime_minutes'
+2026-06-15 14:59:48,273 - ERROR - Monitoring scheduler job failed: evaluate_and_create_alerts() got an unexpected keyword argument 'downtime_minutes'
+Traceback (most recent call last):
+  File "d:\api monitor\scheduler\monitor_scheduler.py", line 26, in job_wrapper
+    res = run_monitoring_cycle()
+  File "d:\api monitor\services\monitoring_service.py", line 58, in run_monitoring_cycle
+    evaluate_and_create_alerts(
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        dataset_title="api_monitoring_rich_dataset",
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<9 lines>...
+        failure_label=row.get("failure_label"),
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+TypeError: evaluate_and_create_alerts() got an unexpected keyword argument 'downtime_minutes'
+2026-06-15 14:59:49,300 - ERROR - Monitoring scheduler job failed: evaluate_and_create_alerts() got an unexpected keyword argument 'downtime_minutes'
+Traceback (most recent call last):
+  File "d:\api monitor\scheduler\monitor_scheduler.py", line 26, in job_wrapper
+    res = run_monitoring_cycle()
+  File "d:\api monitor\services\monitoring_service.py", line 58, in run_monitoring_cycle
+    evaluate_and_create_alerts(
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        dataset_title="api_monitoring_rich_dataset",
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<9 lines>...
+        failure_label=row.get("failure_label"),
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+TypeError: evaluate_and_create_alerts() got an unexpected keyword argument 'downtime_minutes'
+2026-06-15 15:00:48,291 - ERROR - Monitoring scheduler job failed: evaluate_and_create_alerts() got an unexpected keyword argument 'downtime_minutes'
+Traceback (most recent call last):
+  File "d:\api monitor\scheduler\monitor_scheduler.py", line 26, in job_wrapper
+    res = run_monitoring_cycle()
+  File "d:\api monitor\services\monitoring_service.py", line 58, in run_monitoring_cycle
+    evaluate_and_create_alerts(
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        dataset_title="api_monitoring_rich_dataset",
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<9 lines>...
+        failure_label=row.get("failure_label"),
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+TypeError: evaluate_and_create_alerts() got an unexpected keyword argument 'downtime_minutes'
+2026-06-15 15:00:49,297 - ERROR - Monitoring scheduler job failed: evaluate_and_create_alerts() got an unexpected keyword argument 'downtime_minutes'
+Traceback (most recent call last):
+  File "d:\api monitor\scheduler\monitor_scheduler.py", line 26, in job_wrapper
+    res = run_monitoring_cycle()
+  File "d:\api monitor\services\monitoring_service.py", line 58, in run_monitoring_cycle
+    evaluate_and_create_alerts(
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        dataset_title="api_monitoring_rich_dataset",
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<9 lines>...
+        failure_label=row.get("failure_label"),
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+TypeError: evaluate_and_create_alerts() got an unexpected keyword argument 'downtime_minutes'
+2026-06-15 15:01:48,280 - ERROR - Monitoring scheduler job failed: evaluate_and_create_alerts() got an unexpected keyword argument 'downtime_minutes'
+Traceback (most recent call last):
+  File "d:\api monitor\scheduler\monitor_scheduler.py", line 26, in job_wrapper
+    res = run_monitoring_cycle()
+  File "d:\api monitor\services\monitoring_service.py", line 58, in run_monitoring_cycle
+    evaluate_and_create_alerts(
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        dataset_title="api_monitoring_rich_dataset",
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<9 lines>...
+        failure_label=row.get("failure_label"),
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+TypeError: evaluate_and_create_alerts() got an unexpected keyword argument 'downtime_minutes'
+2026-06-15 15:05:22,780 - ERROR - Monitoring scheduler job failed: evaluate_and_create_alerts() got an unexpected keyword argument 'downtime_minutes'
+Traceback (most recent call last):
+  File "D:\api monitor\scheduler\monitor_scheduler.py", line 26, in job_wrapper
+    res = run_monitoring_cycle()
+  File "D:\api monitor\services\monitoring_service.py", line 58, in run_monitoring_cycle
+    evaluate_and_create_alerts(
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        dataset_title="api_monitoring_rich_dataset",
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<9 lines>...
+        failure_label=row.get("failure_label"),
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+TypeError: evaluate_and_create_alerts() got an unexpected keyword argument 'downtime_minutes'
+2026-06-15 15:05:23,474 - ERROR - Monitoring scheduler job failed: evaluate_and_create_alerts() got an unexpected keyword argument 'downtime_minutes'
+Traceback (most recent call last):
+  File "D:\api monitor\scheduler\monitor_scheduler.py", line 26, in job_wrapper
+    res = run_monitoring_cycle()
+  File "D:\api monitor\services\monitoring_service.py", line 58, in run_monitoring_cycle
+    evaluate_and_create_alerts(
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        dataset_title="api_monitoring_rich_dataset",
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<9 lines>...
+        failure_label=row.get("failure_label"),
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+TypeError: evaluate_and_create_alerts() got an unexpected keyword argument 'downtime_minutes'
+2026-06-15 15:06:22,763 - ERROR - Monitoring scheduler job failed: evaluate_and_create_alerts() got an unexpected keyword argument 'downtime_minutes'
+Traceback (most recent call last):
+  File "D:\api monitor\scheduler\monitor_scheduler.py", line 26, in job_wrapper
+    res = run_monitoring_cycle()
+  File "D:\api monitor\services\monitoring_service.py", line 58, in run_monitoring_cycle
+    evaluate_and_create_alerts(
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        dataset_title="api_monitoring_rich_dataset",
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<9 lines>...
+        failure_label=row.get("failure_label"),
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+TypeError: evaluate_and_create_alerts() got an unexpected keyword argument 'downtime_minutes'
+2026-06-15 15:06:23,464 - ERROR - Monitoring scheduler job failed: evaluate_and_create_alerts() got an unexpected keyword argument 'downtime_minutes'
+Traceback (most recent call last):
+  File "D:\api monitor\scheduler\monitor_scheduler.py", line 26, in job_wrapper
+    res = run_monitoring_cycle()
+  File "D:\api monitor\services\monitoring_service.py", line 58, in run_monitoring_cycle
+    evaluate_and_create_alerts(
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        dataset_title="api_monitoring_rich_dataset",
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<9 lines>...
+        failure_label=row.get("failure_label"),
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+TypeError: evaluate_and_create_alerts() got an unexpected keyword argument 'downtime_minutes'
+2026-06-15 15:07:22,848 - ERROR - Monitoring scheduler job failed: evaluate_and_create_alerts() got an unexpected keyword argument 'downtime_minutes'
+Traceback (most recent call last):
+  File "D:\api monitor\scheduler\monitor_scheduler.py", line 26, in job_wrapper
+    res = run_monitoring_cycle()
+  File "D:\api monitor\services\monitoring_service.py", line 58, in run_monitoring_cycle
+    evaluate_and_create_alerts(
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        dataset_title="api_monitoring_rich_dataset",
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<9 lines>...
+        failure_label=row.get("failure_label"),
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+TypeError: evaluate_and_create_alerts() got an unexpected keyword argument 'downtime_minutes'
+2026-06-15 15:07:23,586 - ERROR - Monitoring scheduler job failed: evaluate_and_create_alerts() got an unexpected keyword argument 'downtime_minutes'
+Traceback (most recent call last):
+  File "D:\api monitor\scheduler\monitor_scheduler.py", line 26, in job_wrapper
+    res = run_monitoring_cycle()
+  File "D:\api monitor\services\monitoring_service.py", line 58, in run_monitoring_cycle
+    evaluate_and_create_alerts(
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        dataset_title="api_monitoring_rich_dataset",
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<9 lines>...
+        failure_label=row.get("failure_label"),
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+TypeError: evaluate_and_create_alerts() got an unexpected keyword argument 'downtime_minutes'
